@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser dont-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Big Shoulders Display", cursive;
+  line-height: 1;
+  font-weight: 400;
+  color: #444;
+} 
+
+
+
+.page-link:link, 
+.page-link:visited {
+    /*display: inline-block;*/  /*a links are not inline-blocks */
+    text-decoration: none;
+     /*background-color: : #151515 */
+}
+
+.page-link:hover, 
+.page-link:active {
+    /*background-color:  #D5966C */
+}
