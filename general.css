@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -20,7 +22,31 @@ body {
   color: #444;
 } 
 
+/* ---------------------------------- */
+/* .container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+  } */
 
+.center-text {
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+}
+.grid--2cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid--3cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+/* LINKS */
 
 .page-link:link, 
 .page-link:visited {
@@ -32,4 +58,10 @@ body {
 .page-link:hover, 
 .page-link:active {
     /*background-color:  #D5966C */
-}
+} 
+
+
+
+
+
+/* FOOTER-SECTION */
