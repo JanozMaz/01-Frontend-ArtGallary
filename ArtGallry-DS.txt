@@ -52,3 +52,16 @@ Stylesheet Defualt styling
 
 
 
+Step 01. - Put in all the general css classes into your css file.
+(fonts, headings, grids, flex, center-text m.m)
+
+Step 02. - Put in the first Section of content and decide the element.names. (heading-XL, section-hero, description m.m)
+
+Step 03. Build out the layout and then finsh that section of with styling.
+
+
+---------------------------------
+TODO:
+
+[ ] how to make the header-XL into two different colors
+[ ] How to make the buttons arow into a nother color & section

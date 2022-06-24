@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="general.css" />
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
     <title>Frontend Mentor | Art gallery website</title>
@@ -11,31 +11,29 @@
   <body>
     <main>
       
-      <!-- TODO: fixa button  -->
-      <section class="hero-section grid grid--3cols">
-        <div class="grid-color-black"></div>
-        <img class="hero-img" src="/assets/desktop/image-hero@2x.jpg" alt="two people strolling the gallery" />
-        <div class="grid-color-white"></div>
+      
+      <section class="section-hero">
+        <div class="hero grid grid--3cols">
+          <div class="hero--black-bkgr"></div>
+          <img class="hero-img" src="/assets/desktop/image-hero@2x.jpg" alt="two people strolling the gallery" />
+          <div class="grid--white-bkgr"></div>
+        </div>
 
-        <div class="container">
-          <div class="hero-flex-container">
-            <h1 class="heading">Modern<br>Art Gallery</h1>
+        <div class="container flex position">
 
-            <div class="hero--text-btn-container">
-              <p class="hero-body-m">
-                arts in the collection of the
+            <h1 class="heading-XL">Modern<br> Art Gallery</h1>
+
+            <div>
+              <p class="hero-description body--texxt-M margin-bottom-md">
+                The arts in the collection of the
                 Modern Art Gallery all started from
                 a spark of inspiration. Will these
                 pieces inspire you? Visit us and find
                 out.
               </p>
-              <div>
-                <a href="#" class="btn">Our location<span class="btn-color">&gt;</span></a>
-                
-              </div>
+                <a href="#" class="btn 1ldle">Our location  &gt;</a>
             </div>
 
-          </div>
         </div>
       </section>
 
